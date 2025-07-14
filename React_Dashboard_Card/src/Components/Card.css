@@ -1,0 +1,141 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 25px;
+}
+
+.id-card {
+  width: 280px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.header {
+  background: linear-gradient(135deg, #001f4d, #003366);
+  color: white;
+  padding: 20px 10px 40px 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.company-logo {
+  font-size: 24px;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin: 10px auto 10px auto;
+  background-size: cover;
+}
+
+.info h2 {
+  font-size: 18px;
+  margin: 5px 0 0 0;
+}
+
+.job {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.details {
+  font-size: 13px;
+  text-align: left;
+  padding: 0 25px;
+}
+
+.details p {
+  margin: 4px 0;
+}
+
+/* .barcode {
+  height: 50px;
+  background-image: url('https://barcode.tec-it.com/barcode.ashx?data=0000000000&code=Code128&translate-esc=false');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px auto 0 auto;
+  width: 80%;
+} */
+
+.edit-delete {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button.delete,
+button.Edit {
+  background-color: #003366;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 40%;
+  font-weight: bold;
+}
+
+button.delete:hover {
+  color: rgb(251, 69, 69);
+}
+
+button.Edit:hover {
+  color: orange;
+}
+
+.search-container {
+  margin-left: 1000px;
+  display: flex;
+}
+
+.search-container .searchbar {
+  padding: 5px;
+  width: 200px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.searchicon {
+  margin: 15px 0 0 -30px;
+  font-size: 20px;
+}
+
+.no-results {
+  font-size: 1.3rem;
+  color: #424141;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.user-not-found {
+  margin: auto;
+  margin-top: 150px;
+}
+
+.exclamation {
+  color: #424141;
+  font-size: 100px;
+  margin-left:40px;
+}
